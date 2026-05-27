@@ -12,7 +12,7 @@
 ## 🛠️ Technologies Used
 
 - **HTML5** – Structure and content
-- **CSS3** – Styling (to be added)
+- **CSS3** – Styling added to the code
 - **Responsive Design** – Mobile‑friendly layout using `<meta viewport>`
 
 ---
