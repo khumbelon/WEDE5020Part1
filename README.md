@@ -9,6 +9,7 @@
 - **Booking button** integrated with WhatsApp for easy appointments.
 - **Footer** with contact details, operating hours, and copyright.
 ---
+
 ## 🛠️ Technologies Used
 
 - **HTML5** – Structure and content
@@ -34,12 +35,64 @@
 | Sunday     | Closed       |  
 
 ---
+#  CSS Styling
+```css
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:rgba(255, 192, 203, 0.918);
+    color:black;
+}
+
+nav {
+    background: #333333de;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.services img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.678);
+}
+
+}
+
+button {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 25;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+---
 ## References
 
 1. Independent Institute of Education (IIE). (2026). *WEDE5020 Web Development Portfolio of Evidence (POE)*. Rosebank College.  
 2. W3Schools. (n.d.). *HTML Tutorial*. Retrieved from [https://www.w3schools.com/html/](https://www.w3schools.com/html/)  
 3. Mozilla Developer Network (MDN). (n.d.). *HTML Elements Reference*. Retrieved from [https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)  
-4. WhatsApp Business. (n.d.). *Create Click-to-Chat Links*. Retrieved from [https://faq.whatsapp.com/](https://faq.whatsapp.com/)
+
 
 ---
 ## Licensing
