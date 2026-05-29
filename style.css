@@ -1,0 +1,127 @@
+/* =====Body styles ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:rgba(255, 192, 203, 0.918);
+    color:black;
+}
+
+/* ===== Header ===== */
+/* Pink theme for beauty studio */
+header {
+    background: #e91e6270; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header h4 {
+    margin: 0;
+    font-size: 20px;
+}
+header h5 {
+    margin: 0;
+    font-size: 20px;
+}
+/* ===== Navigation ===== */
+nav {
+    background: #333333de;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e91e62e1;
+}
+
+/* ===== Main Content ===== */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Services Images */
+.services img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.678);
+}
+
+/* Price List */
+.price-list h2 {
+    color: #e91e63;
+    margin-top: 15px;
+}
+
+.price-list h3 {
+    margin-top: 10px;
+    color:rgba(0, 0, 0, 0.842);
+}
+
+.price-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#price-list li {
+    background: #f8f8f8af;
+    margin: 3px 0;
+    padding: 3px;
+    border-left: 4px solid #e91e63;
+}
+
+/* Booking Button */
+button {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 25;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #d81b60;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer h3, footer h4 {
+    margin-bottom: 10px;
+    color: #e91e63;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 5px 0;
+}
